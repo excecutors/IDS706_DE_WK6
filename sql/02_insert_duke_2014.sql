@@ -1,0 +1,20 @@
+BEGIN TRANSACTION;
+
+INSERT INTO university_rankings (
+  world_rank, institution, country, national_rank,
+  quality_of_education, alumni_employment, quality_of_faculty,
+  publications, influence, citations, broad_impact, patents,
+  score, year
+) VALUES (
+  350, 'Duke Tech', 'USA', NULL,
+  NULL, NULL, NULL,
+  NULL, NULL, NULL, NULL, NULL,
+  60.5, 2014
+);
+
+-- Verify
+SELECT *
+FROM university_rankings
+WHERE institution='Duke Tech' AND year=2014;
+
+COMMIT;
