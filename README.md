@@ -163,3 +163,9 @@ COMMIT;
 ---
 
 **All CRUD operations executed successfully, verified via SELECT checks, and documented in this report.**
+
+---
+
+## Author
+Freddy Platinus  
+Master of Engineering in Financial Technology, Duke University
